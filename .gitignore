@@ -6,3 +6,9 @@ __pycache__/
 *.py[cod]
 node_modules/
 .github/
+package.json
+index.js
+Pipfile
+Pipfile.lock
+Procfile
+Settings.json

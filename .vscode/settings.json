@@ -1,3 +1,16 @@
 {
-    "liveServer.settings.port": 5501
+  "liveServer.settings.port": 5000,
+  "python.pythonPath": ".venv/bin/python",
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "python.linting.enabled": true,
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.env.osx": {
+    "SECRET_KEY": "my secret key here",
+    "DEV": "1",
+    "FLASK_DEBUG": "1",
+    "MONGO_URI": "my uri here",
+    "FLASK_APP": "app.py",
+    "FLASK_ENV": "development"
+  },
+  "liveServer.settings.multiRootWorkspaceName": "thorin-flask"
 }
